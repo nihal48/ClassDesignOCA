@@ -1,0 +1,15 @@
+abstract class rule
+ 1>abstract classes cannot be instantied directly.
+ 2>abstract classes may be defined with any number, including zero of abstract and non abstract methods.
+ 3>abstract classes may not be marked as private or final.
+ 4>an abstract class that extendsanother abstract another abstract class inherits all of its abstract
+ methods as its own abstract mthods.
+
+ Abstract method rules
+ 1> Abstract methods may only be defined in abstract classes.
+ 2>abstract methods may not be declared private or final.
+ 3> abstract methods must not provide a methods body/implementation in the abstract class for which is it defined.
+ 4>Implementing an abs
+ tract method in a subclass follows the same rules for overriding a method. for ex the
+ name and signature must be same and the visibility of the method in the subclass must be accessible as the
+ method in the parent class.
